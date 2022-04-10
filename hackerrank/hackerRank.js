@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
-// let { email, password} = require("./secrets");
-let email = "tyagiabhiin11@gmail.com";
-let password = "techsavyy@1234";
+let { email, password } = require("./secrets");
+// let email = "";
+// let password = "";
 
 let curTab;
 let browserOPenPromise = puppeteer.launch({
